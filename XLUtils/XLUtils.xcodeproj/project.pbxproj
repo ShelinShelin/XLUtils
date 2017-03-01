@@ -15,6 +15,13 @@
 		FD197C661E66A3F30068DB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD197C641E66A3F30068DB55 /* LaunchScreen.storyboard */; };
 		FD197C711E66A3F30068DB55 /* XLUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C701E66A3F30068DB55 /* XLUtilsTests.m */; };
 		FD197C7C1E66A3F30068DB55 /* XLUtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C7B1E66A3F30068DB55 /* XLUtilsUITests.m */; };
+		FD197C8D1E66A8B40068DB55 /* UIView+XLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C8C1E66A8B40068DB55 /* UIView+XLAdd.m */; };
+		FD197C901E66AAEE0068DB55 /* NSArray+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C8F1E66AAEE0068DB55 /* NSArray+XLSafe.m */; };
+		FD197C931E66AB840068DB55 /* NSObject+XLSwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C921E66AB840068DB55 /* NSObject+XLSwizzleMethod.m */; };
+		FD197C961E66AC250068DB55 /* NSString+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C951E66AC250068DB55 /* NSString+XLSafe.m */; };
+		FD197C991E66AC840068DB55 /* UIColor+XLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C981E66AC840068DB55 /* UIColor+XLAdd.m */; };
+		FD197C9C1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C9B1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m */; };
+		FD197C9E1E66B0330068DB55 /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C9D1E66B0330068DB55 /* NSNull+Safe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		FD197C771E66A3F30068DB55 /* XLUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD197C7B1E66A3F30068DB55 /* XLUtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLUtilsUITests.m; sourceTree = "<group>"; };
 		FD197C7D1E66A3F30068DB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD197C8B1E66A8B40068DB55 /* UIView+XLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLAdd.h"; sourceTree = "<group>"; };
+		FD197C8C1E66A8B40068DB55 /* UIView+XLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLAdd.m"; sourceTree = "<group>"; };
+		FD197C8E1E66AAEE0068DB55 /* NSArray+XLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XLSafe.h"; sourceTree = "<group>"; };
+		FD197C8F1E66AAEE0068DB55 /* NSArray+XLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XLSafe.m"; sourceTree = "<group>"; };
+		FD197C911E66AB840068DB55 /* NSObject+XLSwizzleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLSwizzleMethod.h"; sourceTree = "<group>"; };
+		FD197C921E66AB840068DB55 /* NSObject+XLSwizzleMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLSwizzleMethod.m"; sourceTree = "<group>"; };
+		FD197C941E66AC250068DB55 /* NSString+XLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLSafe.h"; sourceTree = "<group>"; };
+		FD197C951E66AC250068DB55 /* NSString+XLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLSafe.m"; sourceTree = "<group>"; };
+		FD197C971E66AC840068DB55 /* UIColor+XLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XLAdd.h"; sourceTree = "<group>"; };
+		FD197C981E66AC840068DB55 /* UIColor+XLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XLAdd.m"; sourceTree = "<group>"; };
+		FD197C9A1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+XLIndexPath.h"; sourceTree = "<group>"; };
+		FD197C9B1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+XLIndexPath.m"; sourceTree = "<group>"; };
+		FD197C9D1E66B0330068DB55 /* NSNull+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Safe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,8 @@
 		FD197C551E66A3F30068DB55 /* XLUtils */ = {
 			isa = PBXGroup;
 			children = (
+				FD197C891E66A76B0068DB55 /* Categories */,
+				FD197C8A1E66A76B0068DB55 /* Tools */,
 				FD197C591E66A3F30068DB55 /* AppDelegate.h */,
 				FD197C5A1E66A3F30068DB55 /* AppDelegate.m */,
 				FD197C5C1E66A3F30068DB55 /* ViewController.h */,
@@ -138,6 +160,33 @@
 				FD197C7D1E66A3F30068DB55 /* Info.plist */,
 			);
 			path = XLUtilsUITests;
+			sourceTree = "<group>";
+		};
+		FD197C891E66A76B0068DB55 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FD197C8B1E66A8B40068DB55 /* UIView+XLAdd.h */,
+				FD197C8C1E66A8B40068DB55 /* UIView+XLAdd.m */,
+				FD197C911E66AB840068DB55 /* NSObject+XLSwizzleMethod.h */,
+				FD197C921E66AB840068DB55 /* NSObject+XLSwizzleMethod.m */,
+				FD197C8E1E66AAEE0068DB55 /* NSArray+XLSafe.h */,
+				FD197C8F1E66AAEE0068DB55 /* NSArray+XLSafe.m */,
+				FD197C941E66AC250068DB55 /* NSString+XLSafe.h */,
+				FD197C951E66AC250068DB55 /* NSString+XLSafe.m */,
+				FD197C971E66AC840068DB55 /* UIColor+XLAdd.h */,
+				FD197C981E66AC840068DB55 /* UIColor+XLAdd.m */,
+				FD197C9A1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.h */,
+				FD197C9B1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FD197C8A1E66A76B0068DB55 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FD197C9D1E66B0330068DB55 /* NSNull+Safe.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +322,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD197C9E1E66B0330068DB55 /* NSNull+Safe.m in Sources */,
+				FD197C961E66AC250068DB55 /* NSString+XLSafe.m in Sources */,
 				FD197C5E1E66A3F30068DB55 /* ViewController.m in Sources */,
+				FD197C901E66AAEE0068DB55 /* NSArray+XLSafe.m in Sources */,
 				FD197C5B1E66A3F30068DB55 /* AppDelegate.m in Sources */,
+				FD197C931E66AB840068DB55 /* NSObject+XLSwizzleMethod.m in Sources */,
+				FD197C8D1E66A8B40068DB55 /* UIView+XLAdd.m in Sources */,
+				FD197C9C1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m in Sources */,
 				FD197C581E66A3F30068DB55 /* main.m in Sources */,
+				FD197C991E66AC840068DB55 /* UIColor+XLAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +561,7 @@
 				FD197C821E66A3F30068DB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD197C831E66A3F30068DB55 /* Build configuration list for PBXNativeTarget "XLUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +570,7 @@
 				FD197C851E66A3F30068DB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD197C861E66A3F30068DB55 /* Build configuration list for PBXNativeTarget "XLUtilsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +579,7 @@
 				FD197C881E66A3F30068DB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
