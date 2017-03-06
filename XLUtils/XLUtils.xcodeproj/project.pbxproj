@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD053C9D1E6D30FE00DC5374 /* XLHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLHeader.h; sourceTree = "<group>"; };
 		FD197C531E66A3F30068DB55 /* XLUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD197C571E66A3F30068DB55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD197C591E66A3F30068DB55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD053C9C1E6D30E400DC5374 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FD053C9D1E6D30FE00DC5374 /* XLHeader.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		FD197C4A1E66A3F30068DB55 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +130,7 @@
 		FD197C551E66A3F30068DB55 /* XLUtils */ = {
 			isa = PBXGroup;
 			children = (
+				FD053C9C1E6D30E400DC5374 /* Config */,
 				FD197C891E66A76B0068DB55 /* Categories */,
 				FD197C8A1E66A76B0068DB55 /* Tools */,
 				FD197C591E66A3F30068DB55 /* AppDelegate.h */,
