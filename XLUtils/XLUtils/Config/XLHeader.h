@@ -13,7 +13,7 @@
 #define StrongObj(o) @autoreleasepool{} __strong typeof(o) strong##o = weak##o  // 与WeakObj(o)成对配合使用
 
 #ifdef DEBUG    //调试debug
-#define RBLog(...) NSLog(__VA_ARGS__)
+#define XLLog(...) NSLog(__VA_ARGS__)
 #else   //发布release
 #define XLLog(...)
 #endif
