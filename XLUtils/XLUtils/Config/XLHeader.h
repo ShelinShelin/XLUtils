@@ -43,7 +43,7 @@
 #define isIphoneSimulator TARGET_IPHONE_SIMULATOR
 
 /**
- *  设备系统是否大于iOS6
+ *  设备系统是否大于iOS7
  */
 #define isAfterIOS7 ([[[UIDevice currentDevice] systemVersion] intValue] > 7)
 
@@ -51,6 +51,11 @@
  角度转弧度
  */
 #define DEGREES_TO_RADIANS(angle) ((angle) / 180.0 * M_PI)
+
+/**
+ 一像素线高度
+ */
+#define KOnePixelLine ([[UIScreen mainScreen] scale] > 0.0 ? 1.0 / [[UIScreen mainScreen] scale] : 1.0)
 
 
 #endif /* XLHeader_h */

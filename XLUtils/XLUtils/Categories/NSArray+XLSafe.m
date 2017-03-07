@@ -15,9 +15,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [objc_getClass("__NSArrayI") swizzleMethod:@selector(objectAtIndex:) withMethod:@selector(safeObjectAtIndex:) error:nil];
+            [objc_getClass("__NSArrayI") swizzleMethod:@selector(objectAtIndex:) method:@selector(safeObjectAtIndex:) error:nil];
             
-            [objc_getClass("__NSArrayI") swizzleMethod:@selector(subarrayWithRange:) withMethod:@selector(safeSubarrayWithRange:) error:nil];
+            [objc_getClass("__NSArrayI") swizzleMethod:@selector(subarrayWithRange:) method:@selector(safeSubarrayWithRange:) error:nil];
         };
     });
 }
@@ -50,9 +50,9 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             [objc_getClass("__NSArrayM") swizzleMethod:
-             @selector(objectAtIndex:) withMethod:@selector(safeObjectAtIndex:) error:nil];
+             @selector(objectAtIndex:) method:@selector(safeObjectAtIndex:) error:nil];
             [objc_getClass("__NSArrayM") swizzleMethod:
-             @selector(addObject:) withMethod:@selector(safeAddObject:) error:nil];
+             @selector(addObject:) method:@selector(safeAddObject:) error:nil];
         };
     });
 }

@@ -15,11 +15,11 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [objc_getClass("__NSCFConstantString") swizzleMethod:@selector(substringFromIndex:) withMethod:@selector(safeSubstringFromIndex:) error:nil];
+            [objc_getClass("__NSCFConstantString") swizzleMethod:@selector(substringFromIndex:) method:@selector(safeSubstringFromIndex:) error:nil];
             
-            [objc_getClass("__NSCFConstantString") swizzleMethod:@selector(substringToIndex:) withMethod:@selector(safeSubstringToIndex:) error:nil];
+            [objc_getClass("__NSCFConstantString") swizzleMethod:@selector(substringToIndex:) method:@selector(safeSubstringToIndex:) error:nil];
             
-            [objc_getClass("__NSCFConstantString") swizzleMethod:@selector(substringWithRange:) withMethod:@selector(safeSubstringWithRange:) error:nil];
+            [objc_getClass("__NSCFConstantString") swizzleMethod:@selector(substringWithRange:) method:@selector(safeSubstringWithRange:) error:nil];
         };
     });
 }
