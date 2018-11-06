@@ -12,7 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSTimer (WeakTimer)
 
-+ (NSTimer *)weak_scheduledTimerWithTimeInterval:(NSTimeInterval)ti target:(id)aTarget selector:(SEL)aSelector userInfo:(nullable id)userInfo repeats:(BOOL)yesOrNo;
++ (NSTimer *)weak_scheduledTimerWithTimeInterval:(NSTimeInterval)ti
+                                          target:(id)aTarget
+                                        selector:(SEL)aSelector
+                                        userInfo:(nullable id)userInfo
+                                         repeats:(BOOL)yesOrNo;
 
 
 @end

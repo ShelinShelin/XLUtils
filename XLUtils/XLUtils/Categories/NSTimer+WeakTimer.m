@@ -40,7 +40,11 @@
 
 @implementation NSTimer (WeakTimer)
 
-+ (NSTimer *)weak_scheduledTimerWithTimeInterval:(NSTimeInterval)ti target:(id)aTarget selector:(SEL)aSelector userInfo:(id)userInfo repeats:(BOOL)yesOrNo {
++ (NSTimer *)weak_scheduledTimerWithTimeInterval:(NSTimeInterval)ti
+                                          target:(id)aTarget
+                                        selector:(SEL)aSelector
+                                        userInfo:(id)userInfo
+                                         repeats:(BOOL)yesOrNo {
     
     XLTimerTempObj *tempObj = [[XLTimerTempObj alloc] init];
     
