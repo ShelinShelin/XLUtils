@@ -9,8 +9,10 @@
 #import "ViewController.h"
 #import "XLHeader.h"
 #import "XLConfig.h"
+#import "XLNextViewController.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -20,9 +22,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    XLLog(@"---- %@ ----", kBaseURL);
+//    XLLog(@"---- %@ ----", kBaseURL);
+    
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [self presentViewController:[[XLNextViewController alloc] init] animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

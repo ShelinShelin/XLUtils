@@ -1,30 +1,32 @@
 //
-//  NSNull+Safe.m
-//  苗木--iOS
+//  NSObject+Safe.m
+//  XLUtils
 //
-//  Created by yanghaha on 15/11/26.
-//  Copyright © 2015年 shuogao. All rights reserved.
+//  Created by vipkid on 2018/11/6.
+//  Copyright © 2018年 StarUnion. All rights reserved.
 //
 
-//#import "NSNull+Safe.h"
+#import "NSObject+Safe.h"
 #import <objc/runtime.h>
 #import <Foundation/Foundation.h>
+
 static NSString *dataKey = @"key";
 
-@interface NSNull ()
+@interface NSObject ()
 
 @property (strong, nonatomic) NSMutableDictionary *data;
 
 @end
 
-@implementation NSNull (Safe)
+@implementation NSObject (Safe)
 
 #pragma mark - LifeCycle
 
-- (NSMethodSignature *)methodSignatureForSelector:(SEL)selector
-{
-    @synchronized([self class])
-    {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-protocol-method-implementation"
+
+- (NSMethodSignature *)methodSignatureForSelector:(SEL)selector {
+    @synchronized([self class]) {
         NSString *selString = NSStringFromSelector(selector);
         NSMethodSignature *signature = nil;
         
@@ -40,12 +42,11 @@ static NSString *dataKey = @"key";
     }
 }
 
-- (void)forwardInvocation:(NSInvocation *)invocation
-{
+- (void)forwardInvocation:(NSInvocation *)invocation {
     NSString *key = NSStringFromSelector(invocation.selector);
-
+    
     NSRange range = [key rangeOfString:@"set"];
-
+    
     if (range.length) {
         key = [[key substringFromIndex:3] lowercaseString];
         id obj;
@@ -55,21 +56,22 @@ static NSString *dataKey = @"key";
         id obj = self.data[key];
         [invocation setReturnValue:&obj];
     }
-
+    
 }
 
 #pragma mark - Private
 
 - (NSMutableDictionary *)data {
+    
     NSMutableDictionary *data = objc_getAssociatedObject(self, &dataKey);
-
     while (!data) {
         objc_setAssociatedObject(self, &dataKey, [NSMutableDictionary dictionary], OBJC_ASSOCIATION_COPY_NONATOMIC);
         data = objc_getAssociatedObject(self, &dataKey);
     }
-
+    
     return data;
 }
 
+#pragma clang diagnostic pop
 
 @end

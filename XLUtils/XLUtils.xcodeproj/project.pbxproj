@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD0D41E41E6E5B8600E20FDF /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C9D1E66B0330068DB55 /* NSNull+Safe.m */; };
+		ABE6AC922191420E00872490 /* XLNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6AC912191420E00872490 /* XLNextViewController.m */; };
+		ABE6AC932191420E00872490 /* XLNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6AC912191420E00872490 /* XLNextViewController.m */; };
+		ABE6AC942191420E00872490 /* XLNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6AC912191420E00872490 /* XLNextViewController.m */; };
+		ABE6AC9721914A8000872490 /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6AC9621914A8000872490 /* NSTimer+WeakTimer.m */; };
+		ABE6AC9821914A8000872490 /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6AC9621914A8000872490 /* NSTimer+WeakTimer.m */; };
+		ABE6AC9921914A8000872490 /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6AC9621914A8000872490 /* NSTimer+WeakTimer.m */; };
+		ABE6ACAA21914E2900872490 /* NSObject+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6ACA921914E2900872490 /* NSObject+Safe.m */; };
+		ABE6ACAB21914E2900872490 /* NSObject+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6ACA921914E2900872490 /* NSObject+Safe.m */; };
+		ABE6ACAC21914E2900872490 /* NSObject+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6ACA921914E2900872490 /* NSObject+Safe.m */; };
 		FD0D41E51E6E5B8600E20FDF /* NSString+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C951E66AC250068DB55 /* NSString+XLSafe.m */; };
 		FD0D41E61E6E5B8600E20FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C5D1E66A3F30068DB55 /* ViewController.m */; };
 		FD0D41E71E6E5B8600E20FDF /* NSArray+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C8F1E66AAEE0068DB55 /* NSArray+XLSafe.m */; };
@@ -19,7 +27,6 @@
 		FD0D41ED1E6E5B8600E20FDF /* UIColor+XLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C981E66AC840068DB55 /* UIColor+XLAdd.m */; };
 		FD0D41F01E6E5B8600E20FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD197C641E66A3F30068DB55 /* LaunchScreen.storyboard */; };
 		FD0D41F11E6E5B8600E20FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD197C5F1E66A3F30068DB55 /* Main.storyboard */; };
-		FD0D41F91E6E5BCC00E20FDF /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C9D1E66B0330068DB55 /* NSNull+Safe.m */; };
 		FD0D41FA1E6E5BCC00E20FDF /* NSString+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C951E66AC250068DB55 /* NSString+XLSafe.m */; };
 		FD0D41FB1E6E5BCC00E20FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C5D1E66A3F30068DB55 /* ViewController.m */; };
 		FD0D41FC1E6E5BCC00E20FDF /* NSArray+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C8F1E66AAEE0068DB55 /* NSArray+XLSafe.m */; };
@@ -50,7 +57,6 @@
 		FD197C961E66AC250068DB55 /* NSString+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C951E66AC250068DB55 /* NSString+XLSafe.m */; };
 		FD197C991E66AC840068DB55 /* UIColor+XLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C981E66AC840068DB55 /* UIColor+XLAdd.m */; };
 		FD197C9C1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C9B1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m */; };
-		FD197C9E1E66B0330068DB55 /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD197C9D1E66B0330068DB55 /* NSNull+Safe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ABE6AC902191420E00872490 /* XLNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNextViewController.h; sourceTree = "<group>"; };
+		ABE6AC912191420E00872490 /* XLNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNextViewController.m; sourceTree = "<group>"; };
+		ABE6AC9521914A8000872490 /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
+		ABE6AC9621914A8000872490 /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
+		ABE6ACA821914E2900872490 /* NSObject+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Safe.h"; sourceTree = "<group>"; };
+		ABE6ACA921914E2900872490 /* NSObject+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Safe.m"; sourceTree = "<group>"; };
 		FD053C9D1E6D30FE00DC5374 /* XLHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLHeader.h; sourceTree = "<group>"; };
 		FD0D41F51E6E5B8600E20FDF /* XLUtils-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XLUtils-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0D420A1E6E5BCC00E20FDF /* XLUtils-Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XLUtils-Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +116,6 @@
 		FD197C981E66AC840068DB55 /* UIColor+XLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XLAdd.m"; sourceTree = "<group>"; };
 		FD197C9A1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+XLIndexPath.h"; sourceTree = "<group>"; };
 		FD197C9B1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+XLIndexPath.m"; sourceTree = "<group>"; };
-		FD197C9D1E66B0330068DB55 /* NSNull+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Safe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +198,8 @@
 				FD197C5A1E66A3F30068DB55 /* AppDelegate.m */,
 				FD197C5C1E66A3F30068DB55 /* ViewController.h */,
 				FD197C5D1E66A3F30068DB55 /* ViewController.m */,
+				ABE6AC902191420E00872490 /* XLNextViewController.h */,
+				ABE6AC912191420E00872490 /* XLNextViewController.m */,
 				FD197C671E66A3F30068DB55 /* XLUtils-Product-Info.plist */,
 				FD0D420C1E6E5C6B00E20FDF /* XLUtils-Dev-Info.plist */,
 				FD0D420D1E6E5C6B00E20FDF /* XLUtils-Tester-Info.plist */,
@@ -238,6 +251,10 @@
 				FD197C981E66AC840068DB55 /* UIColor+XLAdd.m */,
 				FD197C9A1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.h */,
 				FD197C9B1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m */,
+				ABE6AC9521914A8000872490 /* NSTimer+WeakTimer.h */,
+				ABE6AC9621914A8000872490 /* NSTimer+WeakTimer.m */,
+				ABE6ACA821914E2900872490 /* NSObject+Safe.h */,
+				ABE6ACA921914E2900872490 /* NSObject+Safe.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -245,7 +262,6 @@
 		FD197C8A1E66A76B0068DB55 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				FD197C9D1E66B0330068DB55 /* NSNull+Safe.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -442,9 +458,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0D41E41E6E5B8600E20FDF /* NSNull+Safe.m in Sources */,
 				FD0D41E51E6E5B8600E20FDF /* NSString+XLSafe.m in Sources */,
 				FD0D41E61E6E5B8600E20FDF /* ViewController.m in Sources */,
+				ABE6ACAB21914E2900872490 /* NSObject+Safe.m in Sources */,
+				ABE6AC932191420E00872490 /* XLNextViewController.m in Sources */,
 				FD0D41E71E6E5B8600E20FDF /* NSArray+XLSafe.m in Sources */,
 				FD0D41E81E6E5B8600E20FDF /* AppDelegate.m in Sources */,
 				FD0D41E91E6E5B8600E20FDF /* NSObject+XLSwizzleMethod.m in Sources */,
@@ -452,6 +469,7 @@
 				FD0D41EB1E6E5B8600E20FDF /* UITableViewCell+XLIndexPath.m in Sources */,
 				FD0D41EC1E6E5B8600E20FDF /* main.m in Sources */,
 				FD0D41ED1E6E5B8600E20FDF /* UIColor+XLAdd.m in Sources */,
+				ABE6AC9821914A8000872490 /* NSTimer+WeakTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,9 +477,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0D41F91E6E5BCC00E20FDF /* NSNull+Safe.m in Sources */,
 				FD0D41FA1E6E5BCC00E20FDF /* NSString+XLSafe.m in Sources */,
 				FD0D41FB1E6E5BCC00E20FDF /* ViewController.m in Sources */,
+				ABE6ACAC21914E2900872490 /* NSObject+Safe.m in Sources */,
+				ABE6AC942191420E00872490 /* XLNextViewController.m in Sources */,
 				FD0D41FC1E6E5BCC00E20FDF /* NSArray+XLSafe.m in Sources */,
 				FD0D41FD1E6E5BCC00E20FDF /* AppDelegate.m in Sources */,
 				FD0D41FE1E6E5BCC00E20FDF /* NSObject+XLSwizzleMethod.m in Sources */,
@@ -469,6 +488,7 @@
 				FD0D42001E6E5BCC00E20FDF /* UITableViewCell+XLIndexPath.m in Sources */,
 				FD0D42011E6E5BCC00E20FDF /* main.m in Sources */,
 				FD0D42021E6E5BCC00E20FDF /* UIColor+XLAdd.m in Sources */,
+				ABE6AC9921914A8000872490 /* NSTimer+WeakTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,9 +496,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD197C9E1E66B0330068DB55 /* NSNull+Safe.m in Sources */,
 				FD197C961E66AC250068DB55 /* NSString+XLSafe.m in Sources */,
 				FD197C5E1E66A3F30068DB55 /* ViewController.m in Sources */,
+				ABE6ACAA21914E2900872490 /* NSObject+Safe.m in Sources */,
+				ABE6AC922191420E00872490 /* XLNextViewController.m in Sources */,
 				FD197C901E66AAEE0068DB55 /* NSArray+XLSafe.m in Sources */,
 				FD197C5B1E66A3F30068DB55 /* AppDelegate.m in Sources */,
 				FD197C931E66AB840068DB55 /* NSObject+XLSwizzleMethod.m in Sources */,
@@ -486,6 +507,7 @@
 				FD197C9C1E66ACF20068DB55 /* UITableViewCell+XLIndexPath.m in Sources */,
 				FD197C581E66A3F30068DB55 /* main.m in Sources */,
 				FD197C991E66AC840068DB55 /* UIColor+XLAdd.m in Sources */,
+				ABE6AC9721914A8000872490 /* NSTimer+WeakTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
